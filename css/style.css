@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('..//img/candle2.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #4b414d98;
+    border: 2px solid #4b414d;
+    color: #bec3c6;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform:scale(1.1)
+}
+
+.intro-text {
+    background-color: #736454;
+    color: #cfd2d4;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 250px;
+    padding: 0 15rem;
+    clip-path: polygon(0 0, 76% 9%, 100% 0, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0 34%);
+    margin-top: -3rem;
+    padding-top: 4rem;
+}
+
+.intro-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image__text {
+    background-attachment: fixed;
+    background-image: url('..//img/candle3.webp');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #7f919498;
+    border: 2px solid #7f9194;
+    color: #e4dad5;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform:scale(1.1)
+}
+
+.packaging-text {
+    background-color: #84745e;
+    color: #d5dce8;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.packaging-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('..//img/candle1.webp');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #70706798;
+    border: 2px solid #707067;
+    color: #c1c5b3;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform:scale(1.1)
+}
+
+.footer {
+    height: 250px;
+    background-color: #4f5f5a;
+    color: #cec6c2;
+    font-size: 2rem;
+    padding-top: 2rem;
+ }
+
+ .footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #d4cdcd;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color:  #ede4e4;
+}
+
